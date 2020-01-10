@@ -10,7 +10,8 @@ The test suit contains 2 tests:
 2) From "Most Popular Movie" list get 6-th most popular movie name
 
 # Instructions
-This project is build and run on Windows based machine.
+This project is build and run on Windows based machine having at least Java 8 version.
 1) To run this project first you need to download it from GitHub https://github.com/neploch/IMDb repository.
-2) chromedriver is provided in Drivers folder
-3) Reports can be found in reports folder
+2) The project can be run from IDE from testng.xml or from the command line by maven.
+3) chromedriver is provided under Drivers folder
+4) Reports can be found under reports folder

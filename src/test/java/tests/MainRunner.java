@@ -16,6 +16,5 @@ public class MainRunner extends BaseTest {
         homePage.openMainMenu();
         homePage.openMostPopularMoviesChart();
         movieMeter.getNthMovieTitleName(position);
-
     }
 }

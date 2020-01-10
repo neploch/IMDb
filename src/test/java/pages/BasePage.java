@@ -24,6 +24,10 @@ public class BasePage {
         wait.until(ExpectedConditions.visibilityOfElementLocated(element));
     }
 
+    public void waitForElementToBeClickable(By element) {
+        wait.until(ExpectedConditions.elementToBeClickable(element));
+    }
+
     public String getTextFromElement(String xPath) {
         return driver.findElement(By.xpath(xPath)).getText();
     }

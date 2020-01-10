@@ -25,7 +25,7 @@ public class HomePage extends BasePage {
 
     public void openMostPopularMoviesChart()
     {
-        waitForElementToBeVisible(mostPopularMovieLabel);
+        waitForElementToBeClickable(mostPopularMovieLabel);
         clickOnElement(mostPopularMovieLabel);
     }
 }
