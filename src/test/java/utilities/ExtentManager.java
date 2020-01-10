@@ -28,8 +28,8 @@ public class ExtentManager {
         extent = new ExtentReports();
         extent.attachReporter(htmlReporter);
 
-        htmlReporter.config().setDocumentTitle("Automation report on Bezeq Maps");
-        htmlReporter.config().setReportName("Bezeq Maps Test");
+        htmlReporter.config().setDocumentTitle("Automation report on IMDb site");
+        htmlReporter.config().setReportName("IMDb");
         htmlReporter.config().setEncoding("windows-1255");
 
     }

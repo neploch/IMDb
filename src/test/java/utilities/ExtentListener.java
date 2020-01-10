@@ -9,6 +9,7 @@ public class ExtentListener extends ExtentManager implements ITestListener   {
     @Override
     public void onTestStart(ITestResult result) {
         create_test(result.getName());
+        test.log(Status.INFO, result.getMethod().getDescription() + " test started");
     }
 
     @Override

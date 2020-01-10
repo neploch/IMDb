@@ -5,6 +5,7 @@ import org.testng.annotations.Test;
 public class MainRunner extends BaseTest {
 
     String siteURL = "https://www.imdb.com/";
+    int position = 6;
     @Test(priority = 1 ,groups= "OpenWebSite", description= "Open the web site")
     public void openWebSite() {
         homePage.getWebSiteAndValidate(siteURL);
@@ -14,6 +15,7 @@ public class MainRunner extends BaseTest {
     public void nthPopularMovieName() {
         homePage.openMainMenu();
         homePage.openMostPopularMoviesChart();
-        movieMeter.getNthMovieTitleName(6);
+        movieMeter.getNthMovieTitleName(position);
+
     }
 }

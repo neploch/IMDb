@@ -13,4 +13,4 @@ The test suit contains 2 tests:
 This project is build and run on Windows based machine.
 1) To run this project first you need to download it from GitHub https://github.com/neploch/IMDb repository.
 2) chromedriver is provided in Drivers folder
-3) Repors can be found in reports folder
+3) Reports can be found in reports folder
